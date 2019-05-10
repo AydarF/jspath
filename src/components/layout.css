@@ -15,11 +15,11 @@ a {
 }
 
 .Hero {
+  position: relative;
   background: url('../images/green-canyon.jpg');
   height: 920px;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 .HeroGroup {
@@ -114,3 +114,40 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.Cards h2 {
+  margin: 0 20px 50px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(104deg, #134b5a 0%, #498ea0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 640px) {
+  .Cards h2 {
+    margin: 180px 20px 60px;
+    font-size: 30px;
+  }
+}
+
+.CardGroup {
+  margin: 50px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+} 
+
+@media (max-width: 1060px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} 
+
+@media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}  
