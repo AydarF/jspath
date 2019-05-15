@@ -7,6 +7,30 @@ import SEO from "../components/seo"
 import Card from "../components/card"
 import Section from "../components/section";
 import Wave from "../components/wave";
+import staticdata from "../../staticdata.json";
+import Cell from "../components/cell";
+import styled from 'styled-components';
+
+const SectionCaption = styled.p`
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+`
+
+const SectionCellGroup = styled.div`
+  max-width: 800px;
+  margin: 0 auto 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  padding: 0 20px;
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`
 
 
 const IndexPage = () => (
@@ -15,7 +39,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Develop <br />and build <br />the future with JavaScript</h1>
-        <p>The world of new technologies awaits you</p>
+        <p className="HeroParagraph">The world of new technologies awaits you</p>
         {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
           <Image />
         </div> */}
@@ -61,6 +85,15 @@ const IndexPage = () => (
         
         I bet you’re still using Bootstrap too…" 
         />
+        <SectionCaption>15 Sections - 9hours</SectionCaption>
+        <SectionCellGroup>
+          {staticdata.cells.map(cell => (
+            <Cell key={cell.id}
+                  title={cell.title}
+                  image={cell.image}
+            />
+          ))}
+        </SectionCellGroup>
     </div>
   </Layout>
 )

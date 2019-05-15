@@ -1,0 +1,59 @@
+{
+    "cells": [
+        {   "id": 0,
+            "title": "Intro to React",
+            "image": "https://images.unsplash.com/photo-1546464033-5b15cf1168f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&q=80"
+        },
+        
+        {   "id": 1,
+            "title": "Basic Styling in CSS",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {   "id": 2,
+            "title": "Adaptive Layout with CSS Grid",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {   "id": 3,
+            "title": "Interactions and Animations",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {   "id": 4,
+            "title": "SVG Animation",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {   "id": 5,
+            "title": "Components and Props",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {
+            "id": 6,
+            "title": "States and Events",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {
+            "id": 7,
+            "title": "Styled Components",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {
+            "id": 8,
+            "title": "Static Data with JSON",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {
+            "id": 9,
+            "title": "GraphQL with Contentful",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {
+            "id": 10,
+            "title": "Publish to Netlify",
+            "image": "https://source.unsplash.com/random/128x128"
+        },
+        {
+            "id": 11,
+            "title": "Payment with Stripe and Checkout",
+            "image": "https://source.unsplash.com/random/128x128"
+        }
+    ]
+}
