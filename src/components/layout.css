@@ -9,24 +9,30 @@ body {
 }
 
 a {
-  color: #5334F5;
+  color: #195564;
   text-decoration: none;
   font-weight: 600;
 }
 
-.Hero {
+/* .Hero {
   position: relative;
   background: url('../images/green-canyon.jpg');
   height: 920px;
   background-size: cover;
   background-position: center;
-}
+} */
+
 
 .HeroGroup {
   margin: 0 auto;
-  max-width: 500px;
-  padding: 150px 50px;
+  width: 100%;
+  padding: 170px 0 200px;
   text-align: center;
+  position: relative;
+  background: url('../images/green-canyon.jpg');
+  height: 470px;
+  background-size: cover;
+  background-position: center;
 }
 
 .Hero h1 {
@@ -72,7 +78,7 @@ a {
 
 @media (max-width: 640px) {
   .HeroGroup {
-    padding: 100px 20px;
+    padding: 100px 0 230px 0;
   }
 
   .Hero h1 {
@@ -127,13 +133,13 @@ a {
 
 @media (max-width: 640px) {
   .Cards h2 {
-    margin: 180px 20px 60px;
+    margin: 20px 20px 60px;
     font-size: 30px;
   }
 }
 
 .CardGroup {
-  margin: 50px 40px 100px;
+  margin: 50px 40px 65px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
@@ -149,5 +155,8 @@ a {
 @media (max-width: 720px) {
   .CardGroup {
     grid-template-columns: repeat(1, 1fr);
+    margin: 0px 0px 70px;
+
   }
 }  
+

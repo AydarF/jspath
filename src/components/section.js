@@ -12,7 +12,7 @@ const SectionGroup = styled.div`
     position: relative;
 
     @media (max-width: 640px) {
-        height: 820px;
+        height: 840px;
     }
 `
 const SectionLogo = styled.img`

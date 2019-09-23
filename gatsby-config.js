@@ -1,12 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: `Mega Awesome Project`,
-    description: `Kick off your next, great Gatsby project.`,
+    title: `JavaScript Source Project`,
+    description: `Kick off your next, great JS project.`,
     author: `Aydar Fayzullin`,
+    keywords: `react course, react for designers, ios development, javascript, vue`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: '9c8h2v96or0u',
+        accessToken: 'kE6x5_vexoxHCGL6j1YCuAQpqboLOnFX1TO3HWRouGs'
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
