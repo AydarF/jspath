@@ -1,0 +1,176 @@
+{
+    "cells": [
+        {   "id": 0,
+            "title": "Education",
+            "source": [
+                {"name": "Youtube", "price": "Free", "link": "https:\/\/www.youtube.com"},
+                {"name": "Frontend Masters", "price": "Paid", "link": "https:\/\/www.frontendmasters.com"},
+                {"name": "freeCodeCamp", "price": "Free", "link": "https:\/\/www.learn.freecodecamp.org"},
+                {"name": "Wes Bos", "price": "Free/Paid", "link": "https:\/\/www.wesbos.com"},
+                {"name": "Udemy", "price": "Free/Paid", "link": "https:\/\/www.udemy.com"},
+                {"name": "Coursera", "price": "Paid", "link": "https:\/\/www.coursera.org"},
+                {"name": "CSS-Tricks", "price": "Free", "link": "https:\/\/www.css-tricks.com"},
+                {"name": "GitHub", "price": "Free", "link": "https:\/\/www.github.com"},
+                {"name": "Scrimba", "price": "Free", "link": "https:\/\/www.scrimba.com"},
+                {"name": "Hackerrank", "price": "Paid", "link": "https:\/\/www.hackerrank.com"},
+                {"name": "Codewars", "price": "Free", "link": "https:\/\/www.codewars.com"},
+                {"name": "Edx", "price": "Free/Paid", "link": "https:\/\/www.edx.org"},
+                {"name": "Katacoda", "price": "Free", "link": "https:\/\/www.katacoda.com"},
+                {"name": "Leetcode", "price": "Paid", "link": "https:\/\/www.leetcode.com"},
+                {"name": "Pluralsight", "price": "Paid", "link": "https:\/\/www.pluralsight.com"},
+                {"name": "Skillshare", "price": "Paid", "link": "https:\/\/www.skillshare.com"},
+                {"name": "LinkedIn Learning", "price": "Paid", "link": "https:\/\/www.linkedin.com/learning"},
+                {"name": "Treehouse", "price": "Paid", "link": "https:\/\/www.teamtreehouse.com"},
+                {"name": "LogoCore", "price": "Paid", "link": "https:\/\/www.logocore.com"},
+                {"name": "The Futur", "price": "Paid", "link": "https:\/\/www.thefutur.com"}
+            ]
+        },
+        
+        {   "id": 1,
+            "title": "Mockups",
+            "source": [
+                {"name": "Graphic Burger", "price":	"Free/Paid", "link": "https:\/\/www.graphicburger.com"},
+                {"name": "Creative Market", "price": "Paid", "link": "https:\/\/www.creativemarket.com"},
+                {"name": "Graphic River", "price":	"Paid", "link": "https:\/\/www.graphicriver.net"},
+                {"name": "LStore Graphics", "price": "Paid", "link": "https:\/\/www.ls.graphics"},
+                {"name": "Yellow Images", "price": "Paid", "link": "https:\/\/www.yellowimages.com"},
+                {"name": "Mockup Cloud", "price": "Paid", "link": "https:\/\/www.mockupcloud.com"}
+            ]
+        },
+        {   "id": 2,
+            "title": "Illustration",
+            "source": [
+                {"name": "Adobe Photoshop", "price": "Paid", "link": "https:\/\/www.adobe.com/products/photoshop.html"},
+                {"name": "Adobe Illustraitor", "price":	"Paid", "link": "https:\/\/www.adobe.com/products/illustrator.html"},
+                {"name": "GIMP", "price": "Free", "link": "https:\/\/www.gimp.org"},
+                {"name": "Procreate", "price": "Paid", "link": "https:\/\/www.procreate.art"},
+                {"name": "Corel Draw", "price": "Paid", "link": "https:\/\/www.coreldraw.com/en"}
+            ]
+        },
+        {   "id": 3,
+            "title": "User Interface",
+            "source": [
+                {"name": "Adobe XD", "price": "Paid", "link": "https:\/\/www.adobe.com/products/xd.html"},
+                {"name": "Sketch", "price":	"Paid", "link": "https:\/\/www.sketch.com"},
+                {"name": "Figma", "price": "Free/Paid", "link": "https:\/\/www.figma.comn"},
+                {"name": "Invision", "price": "Free/Paid", "link": "https:\/\/www.invisionapp.com"},
+                {"name": "Platforma", "price": "Paid", "link": "https:\/\/www.platforma.ws"},
+                {"name": "Webflow", "price": "Free/Paid", "link": "https:\/\/www.webflow.com"},
+                {"name": "Framer", "price": "Paid", "link": "https:\/\/www.framer.com"}
+            ]
+        },
+        {   "id": 4,
+            "title": "Freelancing",
+            "source": [
+                {"name": "Upwork", "price": "Free", "link": "https:\/\/www.upwork.com"},
+                {"name": "Freelancer", "price":	"Free", "link": "https:\/\/www.freelancer.com"},
+                {"name": "Dribbble", "price": "Free/Paid", "link": "https:\/\/www.dribble.com"},
+                {"name": "Behance", "price": "Free", "link": "https:\/\/www.behance.net"},
+                {"name": "RemoteOK", "price": "Free", "link": "https:\/\/www.remoteok.io"},
+                {"name": "Onepage.space", "price": "Free/Paid", "link": "https:\/\/www.onepage.space.com"},
+                {"name": "WeTransfer", "price": "Free/Paid", "link": "https:\/\/www.wetransfer.com"},
+                {"name": "AND CO", "price": "Free/Paid", "link": "https:\/\/www.and.co"}
+            ]
+        },
+        {   "id": 5,
+            "title": "Invoicing",
+            "source": [
+                {"name": "Freshbooks", "price": "Paid", "link": "https:\/\/www.freeshbooks.com"},
+                {"name": "Zipbooks", "price":	"Free/Paid", "link": "https:\/\/www.zipbooks.com"},
+                {"name": "PayPal", "price": "Fees Apply", "link": "https:\/\/www.paypal.com"},
+                {"name": "Stripe", "price": "Fees Apply", "link": "https:\/\/www.stripe.com"},
+                {"name": "Square", "price": "Paid", "link": "https:\/\/www.squareup.com"},
+                {"name": "AND CO", "price": "Free/Paid", "link": "https:\/\/www.and.co"}
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Portfolios",
+            "source": [
+                {"name": "Squarespace", "price": "Free Trial", "link": "https:\/\/www.squarespace.com"},
+                {"name": "Dribbble", "price":	"Free/Paid", "link": "https:\/\/www.dribbble.com"},
+                {"name": "Behance", "price": "Free", "link": "https:\/\/www.behance.net"},
+                {"name": "Wix", "price": "Paid", "link": "https:\/\/www.wixstats.com"},
+                {"name": "Weebly", "price": "Free/Paid", "link": "https:\/\/www.weebly.com"},
+                {"name": "Adobe Portfolio", "price": "Paid", "link": "https:\/\/www.portfolio.adobe.com.co"},
+                {"name": "Carbonmade", "price": "Paid", "link": "https:\/\/www.carbonmade.com"},
+                {"name": "Webflow", "price": "Free/Paid", "link": "https:\/\/www.webflow.com"},
+                {"name": "Carrd", "price": "Free", "link": "https:\/\/www.carrd.co"}
+
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Inspiration",
+            "source": [
+                {"name": "Dribbble", "price":	"Free/Paid", "link": "https:\/\/www.dribbble.com"},
+                {"name": "Behance", "price": "Free", "link": "https:\/\/www.behance.net"},
+                {"name": "Pinterest", "price": "Free", "link": "https:\/\/www.pinterest.com"},
+                {"name": "Logoinspirations", "price": "Free", "link": "https:\/\/www.logoinspirations.co"},
+                {"name": "We Love Daily", "price": "Free", "link": "https:\/\/www.welovedaily.com"},
+                {"name": "Awwwards", "price": "Free", "link": "https:\/\/www.awwwards.com"}
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Typography",
+            "source": [
+                {"name": "DaFont", "price":	"Free", "link": "https:\/\/www.dafont.com"},
+                {"name": "MyFonts", "price": "Paid", "link": "https:\/\/www.myfonts.com"},
+                {"name": "Google Fonts", "price": "Free", "link": "https:\/\/www.fonts.google.com"},
+                {"name": "FontSquirrel", "price": "Paid", "link": "https:\/\/www.fontsquirrel.co"},
+                {"name": "CreativeMarket", "price": "Paid", "link": "https:\/\/www.creativemarket.com"}
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Colors",
+            "source": [
+                {"name": "Adobe Color", "price":	"Free", "link": "https:\/\/www.color.adobe.com"},
+                {"name": "Color Hunt", "price": "Free", "link": "https:\/\/www.colorhunt.co"},
+                {"name": "Material Palette", "price": "Free", "link": "https:\/\/www.materialpalette.com"},
+                {"name": "Coolors", "price": "Free", "link": "https:\/\/www.coolors.co"},
+                {"name": "Brand Colors", "price": "Free", "link": "https:\/\/www.brandcolors.net"},
+                {"name": "Grabient", "price": "Free", "link": "https:\/\/www.grabient.com"}
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Domains",
+            "source": [
+                {"name": "TSOHost", "price": "Paid", "link": "https:\/\/www.tsohost.com"},
+                {"name": "GoDaddy", "price": "Paid", "link": "https:\/\/www.godaddy.com"},
+                {"name": "NameCheap", "price": "Paid", "link": "https:\/\/www.namecheap.com"},
+                {"name": "Google Domains", "price": "Paid", "link": "https:\/\/www.domains.google"},
+                {"name": "123reg", "price": "Paid", "link": "https:\/\/www.123-reg.co.uk"},
+                {"name": "Names", "price": "Paid", "link": "https:\/\/www.awin.com"}
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Hosting",
+            "source": [
+                {"name": "Flywheel", "price": "Paid", "link": "https:\/\/www.getflywheel.com"},
+                {"name": "TSOHost", "price": "Paid", "link": "https:\/\/www.tsohost.com"},
+                {"name": "GoDaddy", "price": "Paid", "link": "https:\/\/www.godaddy.com"},
+                {"name": "NameCheap", "price": "Paid", "link": "https:\/\/www.namecheap.com"},
+                {"name": "123reg", "price": "Paid", "link": "https:\/\/www.123-reg.co.uk"},
+                {"name": "Names", "price": "Paid", "link": "https:\/\/www.names.co.uk"}
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Presenting",
+            "source": [
+                {"name": "Frontify", "price": "Paid", "link": "https:\/\/www.frontify.com"},
+                {"name": "MockFlow", "price": "Free/Paid", "link": "https:\/\/www.mockflow.com"},
+                {"name": "Adobe InDesign", "price": "Paid", "link": "https:\/\/www.adobe.com/products/indesign.html"},
+                {"name": "PowerPoint", "price": "Paid", "link": "https:\/\/www.products.office.com/en-us/powerpoint"},
+                {"name": "Google Slides", "price": "Free", "link": "https:\/\/www.google.com/slides/about"},
+                {"name": "Mockup Editor", "price": "Paid", "link": "https:\/\/www.mockupeditor.com"},
+                {"name": "Onepage.space", "price": "Free/Paid", "link": "https:\/\/www.onepage.space"},
+                {"name": "WeTransfer", "price": "Free/Paid", "link": "https:\/\/www.wetransfer.com"}
+            ]
+        }
+    ]
+}
