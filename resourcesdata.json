@@ -1,19 +1,21 @@
 {
     "cells": [
         {   "id": 0,
-            "title": "Education",
+            "title": "Education Platforms",
             "source": [
                 {"name": "Youtube", "price": "Free", "link": "https:\/\/www.youtube.com"},
                 {"name": "Frontend Masters", "price": "Paid", "link": "https:\/\/www.frontendmasters.com"},
                 {"name": "freeCodeCamp", "price": "Free", "link": "https:\/\/www.learn.freecodecamp.org"},
                 {"name": "Wes Bos", "price": "Free/Paid", "link": "https:\/\/www.wesbos.com"},
                 {"name": "Udemy", "price": "Free/Paid", "link": "https:\/\/www.udemy.com"},
+                {"name": "Udacity", "price": "Free/Paid", "link": "https:\/\/www.udacity.com"},
                 {"name": "Coursera", "price": "Paid", "link": "https:\/\/www.coursera.org"},
                 {"name": "CSS-Tricks", "price": "Free", "link": "https:\/\/www.css-tricks.com"},
                 {"name": "GitHub", "price": "Free", "link": "https:\/\/www.github.com"},
                 {"name": "Scrimba", "price": "Free", "link": "https:\/\/www.scrimba.com"},
                 {"name": "Hackerrank", "price": "Paid", "link": "https:\/\/www.hackerrank.com"},
                 {"name": "Codewars", "price": "Free", "link": "https:\/\/www.codewars.com"},
+                {"name": "fast.ai", "price": "Free", "link": "https:\/\/www.fast.ai"},
                 {"name": "Edx", "price": "Free/Paid", "link": "https:\/\/www.edx.org"},
                 {"name": "Katacoda", "price": "Free", "link": "https:\/\/www.katacoda.com"},
                 {"name": "Leetcode", "price": "Paid", "link": "https:\/\/www.leetcode.com"},

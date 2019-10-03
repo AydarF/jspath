@@ -1,34 +1,56 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import resourcesdata from "../../resourcesdata.json";
+// import Wave from "../components/wave";
 
-// import styled from "styled-components";``
-// import ResourceCard from "../components/resourcecard"
+import styled from "styled-components";
+import ResourceCard from "../components/resourcecard"
+
+const ResourcesArea = styled.div`
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: flex-start;
+    padding: 150px 40px 0;
+    background: black;
+    text-align: center;
+    
+    @media (max-width: 1060px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 640px) {
+        grid-template-columns: 1fr;
+    } 
+`
+
+const ResourcesBody = styled.div`
+    border: 1px solid #c3c1c17d;
+    border-radius: 10px; 
+    padding: 0 25px;
+
+    &:hover {
+        border: 1px solid #c3c1c1;
+        transition: 0.3s;
+        transform: translate(0, -5px);
+    }
+`
 
 const Resources = () => {
- 
+    const data = resourcesdata;
     return (
         <Layout>
           <SEO title="Resources page" />
-            <div style={{padding: "150px 0 0", textAlign: "center"}}>
-                <div style={{maxWidth: "500px", margin: "0 auto"}}>
-                    {resourcesdata.cells.map(cell => (
-                        <div key={cell.id} style={{border: '1px solid #c3c1c1', borderRadius: '5px', margin: '0 0 25px', padding: '0 25px'}}>
-                            <p>{cell.title}</p>
-                            {cell.source.map(item => (
-                                <div key={item.name} style={{fontSize: '14px', fontWeight: 500, borderBottom: '1px solid #c3c1c1'}}>
-                                    <p><a rel="noopener noreferrer" href={item.link} target="_blank">{item.name} </a><span>{item.price}</span></p>
-                                </div>
-                            ))}
-                        </div>    
+                <ResourcesArea>
+                    {data.cells.map(cell => (                    
+                        <ResourcesBody key={cell.id}>
+                            <ResourceCard title={cell.title} source={cell.source}/>
+                        </ResourcesBody>                         
                     ))
                     }
-                </div>
-            </div>
-            <Link to="/">Go back to the homepage</Link>
+                </ResourcesArea>
+                {/* <Wave />   */} 
         </Layout>    
     )
 }
