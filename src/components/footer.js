@@ -53,14 +53,12 @@ const LinkGroup = styled.div`
   }
 `;
 const Copyright = styled.div`
-  max-width: 500px;
-  margin: 0 auto;
   padding: 0 20px;
   color: #457;
+  justify-self: center;
 
   @media (max-width: 640px){
-    max-width: 300px;
-    text-align: center;
+    justify-self: center;
   }
 `;
 

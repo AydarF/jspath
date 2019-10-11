@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -15,7 +14,7 @@ const SectionCaption = styled.p`
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
-  color: black;
+  color: white;
   text-align: center;
 `
 
@@ -43,7 +42,6 @@ const IndexPage = () => (
         {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
           <Image />
         </div> */}
-        <Link to="/page-2/">Watch the video</Link>
         <div className="Logos">
         <img src={require('../images/javascript.png')} width="50" alt="" />
           <img src={require('../images/logo-react.png')} width="50" alt="" />

@@ -43,7 +43,7 @@ export const Layout = ({ children }) => (
           <Header />
           <div>{children}</div> 
             <Footer data={data}>
-              © {new Date().getFullYear()}, Built by <a href="https://www.github.com">Aydar Fayzullin</a> with {` `} <a href="https://www.gatsbyjs.org">Gatsby</a>
+              <p>© {new Date().getFullYear()}, Built by <a href="https://www.github.com">Aydar Fayzullin</a> with {` `} <a href="https://www.gatsbyjs.org">Gatsby</a></p>
           </Footer>          
         </>
     )}  
