@@ -31,15 +31,10 @@ a {
 
 .HeroGroup {
   margin: 0 auto;
-  width: 100%;
   padding: 170px 0 200px;
   text-align: center;
   position: relative;
-  background: url('../images/green-canyon.jpg');
-  height: 470px;
-  background-size: cover;
-  background-position: center;
-}
+} 
 
 .Hero h1 {
   margin: 0;
@@ -111,6 +106,12 @@ a {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+@media (max-width: 1280px) {
+  .Hero svg {
+    bottom: -1px;
+  }
 }
 
 .Hero .Logos {

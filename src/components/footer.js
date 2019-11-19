@@ -58,7 +58,9 @@ const Copyright = styled.div`
   justify-self: center;
 
   @media (max-width: 640px){
+    width: 70%;
     justify-self: center;
+    text-align: center;
   }
 `;
 

@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layout from "../components/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
 import Card from "../components/card"
 import Section from "../components/section";
@@ -9,6 +8,8 @@ import Wave from "../components/wave";
 import staticdata from "../../staticdata.json";
 import Cell from "../components/cell";
 import styled from 'styled-components';
+
+import StyledBackgroundSection from '../components/backgroundImage';
 
 const SectionCaption = styled.p`
   font-weight: 600;
@@ -36,21 +37,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="Hero">
-      <div className="HeroGroup">
-        <h1>Develop <br />and build <br />the future with JavaScript</h1>
-        <p className="HeroParagraph">The world of new technologies awaits you</p>
-        {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-          <Image />
-        </div> */}
-        <div className="Logos">
-        <img src={require('../images/javascript.png')} width="50" alt="" />
-          <img src={require('../images/logo-react.png')} width="50" alt="" />
-          <img src={require('../images/angular.png')} width="50" alt="" />
-          <img src={require('../images/vue.png')} width="50" alt="" />
-          <img src={require('../images/gatsby-icon.png')} width="40" alt="" />
+    <StyledBackgroundSection>
+        <div className="HeroGroup">
+          <h1>Develop <br />and build <br />the future with JavaScript</h1>
+          <p className="HeroParagraph">The world of new technologies awaits you</p>
+          <div className="Logos">
+            <img src={require('../images/javascript.png')} width="50" alt="" />
+            <img src={require('../images/logo-react.png')} width="50" alt="" />
+            <img src={require('../images/angular.png')} width="50" alt="" />
+            <img src={require('../images/vue.png')} width="50" alt="" />
+            <img src={require('../images/gatsby-icon.png')} width="40" alt="" />
+          </div>  
         </div>
         <Wave />
-      </div>
+      </StyledBackgroundSection>
       <div className="Cards" id="cards">
         <h2>11 courses, more coming</h2>
         <div className="CardGroup">
@@ -92,6 +92,7 @@ const IndexPage = () => (
             />
           ))}
         </SectionCellGroup>
+        
     </div>
   </Layout>
 )
